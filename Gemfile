@@ -4,7 +4,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.2'
 # Use sqlite3 as the database for Active Record
-
+gem 'devise', '~> 4.1', '>= 4.1.1'
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
+gem 'devise-bootstrap-views', '~> 0.0.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
