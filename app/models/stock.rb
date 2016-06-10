@@ -19,7 +19,7 @@ class Stock < ActiveRecord::Base
     return '#{closing_price} (Closing)' if closing_price
     # otherwise return opening price
     opening_price = StockQuote::Stock.quote(ticker).open
-    return '#{opening_price} (Opening)' if opening_price
+    return "#{opening_price} (Opening)" if opening_price
     # otherwise return unavailable
     'Unavailable'
   end
